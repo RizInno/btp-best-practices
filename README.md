@@ -1,6 +1,3 @@
-# best-practices
-Rizing Innovation Best Practices
-
 # SAP Code Style Guides
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/styleguides)](https://api.reuse.software/info/github.com/SAP/styleguides)
