@@ -1,3 +1,25 @@
+# Contents
+
+<!-- toc -->
+
+- [Naming Conventions for Development Objects](#naming-conventions-for-development-objects)
+  * [General Rules](#general-rules)
+  * [ABAP Dictionary Objects](#abap-dictionary-objects)
+    + [Database Tables](#database-tables)
+    + [SQL View (Database View of CDS view)](#sql-view-database-view-of-cds-view)
+  * [CDS Objects](#cds-objects)
+    + [CDS Entity](#cds-entity)
+    + [Behavior Definition](#behavior-definition)
+    + [Metadata Extension](#metadata-extension)
+  * [Business Services](#business-services)
+    + [Service Definition](#service-definition)
+    + [Service Binding](#service-binding)
+  * [Source Code Objects](#source-code-objects)
+    + [Behavior Pool](#behavior-pool)
+    + [Handler and Saver Classes](#handler-and-saver-classes)
+
+<!-- tocstop -->
+
 # Naming Conventions for Development Objects
 
 Naming conventions facilitate the development. An addition to the name of development objects conveys
