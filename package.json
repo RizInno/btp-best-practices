@@ -1,0 +1,30 @@
+{
+  "name": "sap-code-style-guides",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SAP's style guides for coding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "find . -path ./node_modules -prune -false -o -name '*.md' ! -name '*_??.md' -print0 | xargs -0 -n1 markdown-link-check -q -c mlc_config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAP/styleguides.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAP/styleguides/issues"
+  },
+  "homepage": "https://github.com/SAP/styleguides#readme",
+  "devDependencies": {
+    "markdown-link-check": "^3.11.1"
+  },
+  "dependencies": {
+    "i": "^0.3.7",
+    "markdown-it": "^13.0.2",
+    "markdown-it-table-of-contents": "^0.6.0",
+    "markdown-toc": "^1.2.0",
+    "npm": "^10.2.1"
+  }
+}
