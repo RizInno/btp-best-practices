@@ -2,9 +2,9 @@
 
 ## KEY USER EXTENSIBILITY
 1. When creating fields in [Custom Fields](https://fioriappslibrary.hana.ondemand.com/sap/fix/externalViewer/#/detail/Apps('F1481')/S26OP), the [naming conventions](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8308e6d301d54584a33cd04a9861bc52/aca8c2682d284f2185873b14f838f7eb.html#loioaca8c2682d284f2185873b14f838f7eb__Create_cust_field) should follow as below:
-    - **Custom Responsibility Definition Name**: must start with either **'Y_'** or **'Z_'**.
+    - **Custom Responsibility Definition Name**: must start with either **'Z_'**.
     - **CDS View Name**: a CDS view from the include list.
-    - **CDS Field Name**: the custom field created (name must start with **'YY1_'**) or a field of a CDS view from the include list.
+    - **CDS Field Name**: the custom field created (name must start with **'ZZ1_'**) or a field of a CDS view from the include list.
     - **Responsibility Definition External Name**: the name must start with **'Z_'** and should not contain a space
         > **:information_source: Note** <br>
         > Recommend using camel case (CamelCase) for better readability.
